@@ -1,0 +1,192 @@
+/* Add your styles here */
+.navBar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+}
+
+.navName {
+    margin: 0;
+}
+
+.hamburger {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.bar {
+    width: 30px;
+    height: 3px;
+    background-color: #fff;
+    margin: 3px 0;
+}
+
+.navLinksContainer {
+    display: flex;
+    gap: 20px;
+}
+
+.navLinks {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Media query for small screens */
+@media screen and (max-width: 768px) {
+    .navLinksContainer {
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        top: 60px;
+        right: 0;
+        background-color: #333;
+        padding: 10px 20px;
+    }
+
+    .navLinksContainer.active {
+        display: flex;
+    }
+
+    .hamburger {
+        display: flex;
+    }
+}
+
+/*Search Bar*/
+/* Add your styles here */
+.navBar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+}
+
+.navName {
+    margin: 0;
+}
+
+.searchBar {
+    display: flex;
+    align-items: center;
+}
+
+.searchBar input[type="text"] {
+    width: 200px;
+    padding: 5px;
+    margin-right: 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+.searchBar button {
+    background-color: #555;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.hamburger {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.bar {
+    width: 30px;
+    height: 3px;
+    background-color: #fff;
+    margin: 3px 0;
+}
+
+.navLinksContainer {
+    display: flex;
+    gap: 20px;
+}
+
+.navLinks {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Media query for small screens */
+@media screen and (max-width: 768px) {
+    .navLinksContainer {
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        top: 60px;
+        right: 0;
+        background-color: #333;
+        padding: 10px 20px;
+    }
+
+    .navLinksContainer.active {
+        display: flex;
+    }
+
+    .hamburger {
+        display: flex;
+    }
+}
+
+/*Content Area*/
+.contentArea {
+    background-color: aqua;
+    height: 100px;
+    width: 100vw;
+}
+
+/* Image Slider CSS*/
+#homeImage {
+    width: 99vw;
+    height: 70vh;
+    object-fit: cover;
+    margin: 0 auto;
+    
+}
+
+/*Cars Section*/
+.carsContainer {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr); /* Two columns */
+    grid-template-rows: repeat(0, 1fr);    /* Three rows */
+    gap: 10px; /* Optional gap between grid items */
+    width: 400px; /* Optional width for the container */
+  }
+
+.unitContainer {
+    background-color: aquamarine;
+    width: 200px;
+    text-align: center;
+}
+
+.checkoutButton {
+    margin: 0 auto;
+}
+
+button {
+    background-color: #333;
+}
+
+/* Optional styling for the button */
+.checkoutButton {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Optional hover effect for the button */
+.checkoutButton:hover {
+    background-color: #0056b3;
+}
